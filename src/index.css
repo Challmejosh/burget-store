@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.App{
+  height: 800px; 
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 40px;
+}
+.first{
+  width: 840px;
+}
+.second{
+  width: 440px;
+}
+.rectangle{
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  height: 832px;
+  flex-shrink: 0;
+  background: #A50C0B;
+  }
+.imgAndDiscount h1{
+  color: #FFF;
+  font-family: "Futura PT";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #ffffff;
+  width: 329px;
+  margin-left: 50px;
+}
+.btn{
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: end;
+  margin-right: 50px;
+}
+.sign{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.log{
+  display: flex;
+  height: 50px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #FA5C5B;
+  text-decoration: none;
+  cursor: pointer;
+}
+.reg p{
+  color: #FFF;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.logo{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.logo img{
+  width: 60px;
+  height: 60px;
+}
+.logo h1{
+  color: #1E1E1E;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.links{
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+}
+.link{
+  color: #9A8585;
+  font-family: "Futura PT";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.l-active{
+  color: #A50C0B;
+}
+.drop{
+  display: flex;
+  align-items: center;
+}
+.drop p{
+  color: #9A8585;
+  font-family: "Futura PT";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.drop span svg{
+  width: 24px;
+  height: 24px;
+  text-align: center;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-container{
+  display: flex;
+  width: 570px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.hero-message{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+.text{
+  color: #1E1E1E;
+  font-family: "Century Schoolbook";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-self: stretch;
+}
+.text-two{
+  color: #654747;
+  font-family: "Century Schoolbook";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: stretch;
+}
+.btn-link{
+  display: flex;
+  height: 50px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid #A50C0B;
+  color: #A50C0B;
+  cursor: pointer;
+}
+.btn-link p{
+  color: #A50C0B;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  
+}
+
+.text span{
+  color: #A50C0B;
+}
+.button{
+  display: flex;
+  padding:  8px 4px;
+  align-items: center;
+  gap: 24px;
+}
+.link-two{
+  display: flex;
+  height: 50px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  background: #A50C0B;
+  border-radius: 4px;
+  border: 1px solid #A50C0B;
+  color: #FFF;
+  cursor: pointer;
+}
+.link-two p{
+  color: #FFF;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.other{
+  display: flex;
+  width: 246px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+.rate{
+  color: #A50C0B;
+  font-family: "Futura PT";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-items: stretch;
+}
+.customer{
+  color: #9A8585;
+  font-family: "Futura PT";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-self: stretch;
+}
+.img{
+  width: 484px;
+  height: 594px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 180px;
+  right: 200px;
+  background: transparent;
+}
+/*.imgCon{
+  display: flex;
+  width: 484px;
+  padding-bottom: 48px;
+  flex-direction: column;
+  align-items: center;
+}
+.mask{
+  width: 509px;
+  height: 486px;
+}
+.vector{
+  width: 509px;
+  height: 486px;
+  flex-shrink: 0;
+  fill: #D9D9D9;
+}*/
+.Img{
+  /*width: 662.76px;
+  height: 667.582px;*/
+  flex-shrink: 0;
+  background:  transparent;
+  
+}
+.one{
+  margin-top: 60px;
+}
+.eclipse{
+  width: 300px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 300px;
+  background: rgba(14, 12, 12, 0.30);
+  filter: blur(10px);
+  position: absolute;
+  right: 100px;
+}
